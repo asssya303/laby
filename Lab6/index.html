@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @media screen and (max-width: 576px) {
+            .lead {
+                font-size: 1em;
+            }
+            .about__img {
+                width: 250px;
+                height: 200px;
+            }
+
+            .advantages__header {
+                font-size: 1.5em;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Навигация</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Старт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Функции</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Цена</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__about bg-danger pt-4 p-3 pb-5 text-white">
+            <div class="about__container container">
+                <h1>Обучение гаданию на картах "Таро"</h1>
+                <div class="d-flex flex-row justify-content-between mt-5">
+                    <p class="lead mt-2 w-50 ">Карты таро - информационный ресурс, напрваленный на работу с подсознанием. Таро можно использовать для того, чтобы, изучая символы, изображенные на картах, погрузиться в ту или иную ситуацию, рассмотреть ее с другого угла и найти одно из решений любой проблемы. В данном курсе вы научитесь считывать информацию с каждой карты, усвоите значение карт и разберетесь с тем, как читать карты в сочетаниях.</p>
+                    <img class="about__img" src="https://obj.mosregtoday.ru/img/articles/items/thumb/extra/166807845327805788849.jpg" alt="Фото работы" width="500">
+                </div>
+                    
+            </div>
+        </section>
+        <section class="main__advantages bg-success pt-4 p-3 pb-5 text-white">
+            <div class="advantages__container container">
+                <h2 class="advantages__header">Наши преимущества</h2>
+                    <ul class="list-group list-group-flush w-50 mt-3">
+                        <li class="list-group-item">Низкая цена на рынке</li>
+                        <li class="list-group-item">Понятное обучение</li>
+                        <li class="list-group-item">Ведущие тарологи</li>
+                        <li class="list-group-item">Работа с каждым клиентом отдельно</li>
+                        <li class="list-group-item">Бесплатный пробный урок</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__contact bg-warning pt-4 p-3 pb-5">
+            <div class="contact__container container justify-content-center">
+                <form class="container w-50 border p-5 rounded shadow p-3 bg-white rounded" action="//httpbin.org/post" method="post">
+                    <h2 class="text-center">Связаться с нами</h2>
+                    <div class="mb-2">
+                        <label for="nameInput" class="form-label">ФИО</label>
+                        <input type="text" class="form-control" name="FIO" id="nameInput" placeholder="Иванов Иван Иванович">
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label" for="phone-number">Номер телефона </label>
+                        <input type="tel" class="form-control" name="phone_number" id="phone-number" placeholder="+7 999 999 99 99">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
+                        <input type="email" class="form-control" name="e-mail" id="exampleInputEmail1" placeholder="example@example.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer p-4">
+        <div class="footer__container container d-flex justify-content-between">
+            <span class="text-muted">Ильиных Анастасия Андреевна</span>
+            <span class="text-muted">211-331</span>
+        </div>
+    </footer>
+</body>
+</html>

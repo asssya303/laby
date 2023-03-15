@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	background-color: rgb(118, 184, 238);
+	color: rgb(255, 198, 238);
+	padding: 20px 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.main-menu ul {
+	list-style:  none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main-menu li:last-child {
+	margin-right: 0;
+}
+
+.main-menu a {
+	color: rgb(255, 198, 238);
+	text-decoration: none;
+}
+
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+	text-indent: 25px
+}
+
+p {
+	text-align: justify;
+}
+
+.footer {
+	background-color: rgb(118, 184, 238);;
+	color: rgb(255, 198, 238);
+	padding: 20px 0;
+}
+
+.avatar {
+	text-align: center;
+	height: 700px;
+	background-image: url(https://sun9-58.userapi.com/impg/pVv-d0zKKmdaoIPZ5xanHk-MDWAsX2IJk07WwA/cRstJllplAU.jpg?size=810x1080&quality=95&sign=ad802df430aafc60727bfd2612eacddb&type=album);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.avatar img {
+	height: 100%;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
+	font-weight: bold;
+	padding: 10px;
+}
+
+.contact-me-btn {
+	color: rgb(255, 198, 238);
+	border-color: rgb(255, 198, 238);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 10px solid rgb(255, 44, 167);
+	text-align: center;
+	padding: 25px;
+}
